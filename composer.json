@@ -1,31 +1,31 @@
 {
-    "name": "niugengyun/easytbk",
+    "name": "lccong/easytbk",
     "type": "library",
-    "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:flutter666666",
+    "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:lc_wx_demo",
     "keywords": ["淘宝客","淘宝客SDK"],
     "homepage": "https://github.com/niugengyun/easytbk",
     "license": "MIT",
     "authors": [
         {
-            "name": "niugengyun",
-            "email": "515343908@qq.com"
+            "name": "lccong",
+            "email": "601533778@qq.com"
         }
     ],
     "require": {
         "php": ">=7.1.0",
-        "illuminate/support": "~5.8|~6.0|~7.0|~8.0",
-        "graham-campbell/manager": "^2.0|^3.0|^4.0",
+        "illuminate/support": "~5.8|~6.0|~7.0|~8.0|~9.0|~10.0",
+        "graham-campbell/manager": "^2.0|^3.0|^4.0|^5.0",
         "laravel/helpers": "^1.4"
     },
     "autoload": {
         "psr-4": {
-            "NiuGengYun\\EasyTBK\\": "src/"
+            "lccong\\EasyTBK\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NiuGengYun\\EasyTBK\\ServiceProvider"
+                "lccong\\EasyTBK\\ServiceProvider"
             ]
         }
     }

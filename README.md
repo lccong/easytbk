@@ -1,13 +1,16 @@
 # 介绍
+原作者: https://github.com/flutterbest/easytbk
 
 淘宝联盟、京东联盟、多多进宝、唯享客、苏宁推客SDK封装，该项目长期维护，如发现问题，请提交PR。
 
-仅支持laravel5-laravel8，这不是可以直接拿来用的返利系统。
+在原有的基础上升级到支持laravel9-laravel10
+
+仅支持laravel5-laravel10，这不是可以直接拿来用的返利系统。
 
 
 # 联系方式
 
-微信：flutter666666
+微信：lc_wx_demo
 
 
 
