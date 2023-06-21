@@ -19,14 +19,14 @@
 1、安装扩展包，该扩展包只支持laravel
 
 ```bash
-composer require niugengyun/easytbk
+composer require lccong/easytbk
 ```
 
 
 2、执行下面的命令，然后修改config/easytbk.php
 
 ```bash
-php artisan vendor:publish --provider "NiuGengYun\EasyTBK\ServiceProvider"
+php artisan vendor:publish --provider "lccong\EasyTBK\ServiceProvider"
 ```
 
 # 初始化SDK
@@ -36,8 +36,8 @@ php artisan vendor:publish --provider "NiuGengYun\EasyTBK\ServiceProvider"
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\taobao\request\TbkItemInfoGetRequest;
+use lccong\EasyTBK\Factory;
+use lccong\EasyTBK\taobao\request\TbkItemInfoGetRequest;
 
 $client = Factory::taobao ();
 $req = new TbkItemInfoGetRequest();
@@ -49,8 +49,8 @@ return $client->execute ($req);
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\jingdong\request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
+use lccong\EasyTBK\Factory;
+use lccong\EasyTBK\jingdong\request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
 
 $jd = Factory::jingdong();
 $req = new JdUnionGoodsPromotiongoodsinfoQueryRequest();
@@ -62,8 +62,8 @@ return $jd->execute($req);
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\pinduoduo\request\DdkGoodsDetailRequest;
+use lccong\EasyTBK\Factory;
+use lccong\EasyTBK\pinduoduo\request\DdkGoodsDetailRequest;
 
 $pdd = Factory::pinduoduo();
 $req = new DdkGoodsDetailRequest();
@@ -74,9 +74,9 @@ return  $pdd->execute($req);
 4、唯品会SDK初始化
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\Vip\Request\PidGenRequest;
-use NiuGengYun\EasyTBK\Vip\Request\UnionPidServiceClient;
+use lccong\EasyTBK\Factory;
+use lccong\EasyTBK\Vip\Request\PidGenRequest;
+use lccong\EasyTBK\Vip\Request\UnionPidServiceClient;
 
 // 唯品会官方的sdk写的比较垃圾，用法和其他平台稍微不一样
 $service= UnionPidServiceClient::getService();
@@ -93,8 +93,8 @@ dd($service->genPidWithOauth($pidGenRequest1));
 
 ```php
 <?php
-use NiuGengYun\EasyTBK\Factory;
-use NiuGengYun\EasyTBK\suning\Request\netalliance\CouponproductQueryRequest;
+use lccong\EasyTBK\Factory;
+use lccong\EasyTBK\suning\Request\netalliance\CouponproductQueryRequest;
 
 $c = Factory::suning();
 $req = new CouponproductQueryRequest();
