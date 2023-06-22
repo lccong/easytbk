@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 
 class UnionOrderServiceClient{
 
@@ -18,8 +18,8 @@ class UnionOrderServiceClient{
 
 	private static function regis(){
 
-		$path =  \NiuGengYun\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
-		$nsLoader = new \NiuGengYun\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
+		$path =  \lccong\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
+		$nsLoader = new \lccong\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
 		$nsLoader->registerNamespace ( 'Thrift', $path );
 		$nsLoader->registerNamespace ( 'Osp', $path );
 		$nsLoader->registerNamespace ( 'com', $path );
@@ -36,7 +36,7 @@ class UnionOrderServiceClient{
 		}
 
 
-		$ctx =  \NiuGengYun\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
+		$ctx =  \lccong\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
 		$ip = UnionOrderServiceClient::$DEFAULT_PROXY_IP;
 		$port = UnionOrderServiceClient::$DEFAULT_PROXY_PORT;
 		try{
@@ -68,7 +68,7 @@ class UnionOrderServiceClient{
 
 		//$ctx->setProtocol ( \Osp\Protocol\OspProtocol::$Binary );
 
-		return new \NiuGengYun\EasyTBK\Vip\Request\UnionOrderServiceHelper();
+		return new \lccong\EasyTBK\Vip\Request\UnionOrderServiceHelper();
 	}
 
 }

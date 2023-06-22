@@ -1,12 +1,12 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 /**
  * TOP API: taobao.tbk.item.guess.like request
  * 
  * @author auto create
  * @since 1.0, 2018.11.09
  */
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use lccong\EasyTBK\TaoBao\RequestCheckUtil;
 
 class TbkItemGuessLikeRequest
 {

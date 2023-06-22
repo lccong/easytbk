@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 
 class PidGenRequest {
 
@@ -107,7 +107,7 @@ class PidGenRequest {
 
 			if($needSkip){
 
-                \NiuGengYun\EasyTBK\Vip\Osp\Protocol\ProtocolUtil::skip($input);
+                \lccong\EasyTBK\Vip\Osp\Protocol\ProtocolUtil::skip($input);
 			}
 
 			$input->readFieldEnd();
@@ -130,7 +130,7 @@ class PidGenRequest {
 
 			if (!is_array($this->pidNameList)){
 
-				throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException::INVALID_DATA);
+				throw new \lccong\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \lccong\EasyTBK\Vip\Osp\Exception\OspException::INVALID_DATA);
 			}
 
 			$output->writeListBegin();

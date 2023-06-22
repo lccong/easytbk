@@ -1,6 +1,6 @@
 ﻿<?php
 
-namespace NiuGengYun\EasyTBK\SuNing;
+namespace lccong\EasyTBK\SuNing;
 
 class RequestCheckUtil
 {

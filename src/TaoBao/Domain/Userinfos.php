@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace lccong\EasyTBK\TaoBao\Domain;
 
 /**
  * 系统自动生成

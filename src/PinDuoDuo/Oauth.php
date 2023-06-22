@@ -1,5 +1,5 @@
 <?php
-namespace NiuGengYun\EasyTBK\PinDuoDuo;
+namespace lccong\EasyTBK\PinDuoDuo;
 
 
 class Oauth

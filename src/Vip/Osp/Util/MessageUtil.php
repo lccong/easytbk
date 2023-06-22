@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Util;
+namespace lccong\EasyTBK\Vip\Osp\Util;
 
 /**
  * 输出信息工具类

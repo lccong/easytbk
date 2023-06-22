@@ -2,8 +2,7 @@
 /*
  *  easytbk多联盟配置文件
  *
- *  Author: niugengyun <515343909@qq.com>
- *  Wechat：bugfixed
+ *  Author: lccong <601533778@qq.com>
  *
  */
 return [

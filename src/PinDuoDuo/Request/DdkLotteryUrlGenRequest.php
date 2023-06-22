@@ -6,9 +6,9 @@
  * Time: 下午6:45
  */
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace lccong\EasyTBK\PinDuoDuo\Request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use lccong\EasyTBK\PinDuoDuo\RequestInterface;
 
 
 class DdkLotteryUrlGenRequest implements RequestInterface

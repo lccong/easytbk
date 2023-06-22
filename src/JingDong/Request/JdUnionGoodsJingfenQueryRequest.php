@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace lccong\EasyTBK\JingDong\Request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use lccong\EasyTBK\JingDong\RequestInterface;
 
 
 /**
  * Class JdUnionGoodsJingfenQueryRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package lccong\EasyTBK\JingDong\Request
  */
 class JdUnionGoodsJingfenQueryRequest implements RequestInterface
 {

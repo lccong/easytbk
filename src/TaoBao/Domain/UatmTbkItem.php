@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace lccong\EasyTBK\TaoBao\Domain;
 
 /**
  * 淘宝联盟选品和招商宝贝信息

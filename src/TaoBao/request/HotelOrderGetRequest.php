@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 
 /**
  * TOP API: taobao.hotel.order.get request

@@ -1,12 +1,12 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 /**
  * TOP API: taobao.tbk.tpwd.convert request
  * 
  * @author auto create
  * @since 1.0, 2018.08.31
  */
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use lccong\EasyTBK\TaoBao\RequestCheckUtil;
 class TbkTpwdConvertRequest
 {
 	/** 

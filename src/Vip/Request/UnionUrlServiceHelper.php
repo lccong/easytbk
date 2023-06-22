@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 
 class UnionUrlServiceHelper extends _UnionUrlServiceClient{
 

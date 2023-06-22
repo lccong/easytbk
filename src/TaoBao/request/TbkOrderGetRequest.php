@@ -1,12 +1,12 @@
 <?php
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 /**
  * TOP API: taobao.tbk.order.get request
  * 
  * @author auto create
  * @since 1.0, 2018.09.20
  */
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use lccong\EasyTBK\TaoBao\RequestCheckUtil;
 class TbkOrderGetRequest
 {
 	/** 

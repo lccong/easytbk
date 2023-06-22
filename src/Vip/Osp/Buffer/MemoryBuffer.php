@@ -20,10 +20,10 @@
  * @package thrift.transport
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Buffer;
+namespace lccong\EasyTBK\Vip\Osp\Buffer;
 
-use NiuGengYun\EasyTBK\Vip\Osp\Transport\Transport;
-use NiuGengYun\EasyTBK\Vip\Osp\StringFunc\StringFuncFactory;
+use lccong\EasyTBK\Vip\Osp\Transport\Transport;
+use lccong\EasyTBK\Vip\Osp\StringFunc\StringFuncFactory;
 
 /**
  * A memory buffer is a tranpsort that simply reads from and writes to an

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 
 /**
  * TOP API: taobao.wireless.bunting.shop.shorturl.create request

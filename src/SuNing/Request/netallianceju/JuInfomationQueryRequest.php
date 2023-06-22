@@ -1,8 +1,8 @@
 <?php
-namespace NiuGengYun\EasyTBK\SuNing\Request\Netallianceju;
+namespace lccong\EasyTBK\SuNing\Request\Netallianceju;
 
-use NiuGengYun\EasyTBK\SuNing\SelectSuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use lccong\EasyTBK\SuNing\SelectSuningRequest;
+use lccong\EasyTBK\SuNing\RequestCheckUtil;
 /**
  * 苏宁开放平台接口 - 批量查询大聚会商品信息
  *

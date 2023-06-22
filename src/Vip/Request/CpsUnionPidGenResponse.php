@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 
 class CpsUnionPidGenResponse {
 
@@ -90,7 +90,7 @@ class CpsUnionPidGenResponse {
 
 						$elem0 = null;
 
-						$elem0 = new \NiuGengYun\EasyTBK\Vip\Request\PidInfo();
+						$elem0 = new \lccong\EasyTBK\Vip\Request\PidInfo();
 						$elem0->read($input);
 
 						$this->pidInfoList[$_size0++] = $elem0;
@@ -152,7 +152,7 @@ class CpsUnionPidGenResponse {
 
 			if (!is_array($this->pidInfoList)){
 
-				throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+				throw new \lccong\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
 			}
 
 			$output->writeListBegin();
@@ -161,7 +161,7 @@ class CpsUnionPidGenResponse {
 
 				if (!is_object($iter0)) {
 
-					throw new \NiuGengYun\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
+					throw new \lccong\EasyTBK\Vip\Osp\Exception\OspException('Bad type in structure.', \Osp\Exception\OspException::INVALID_DATA);
 				}
 
 				$xfer += $iter0->write($output);

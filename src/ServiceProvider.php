@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace lccong\EasyTBK;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Laravel\Lumen\Application as LumenApplication;

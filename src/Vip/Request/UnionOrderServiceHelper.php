@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 class UnionOrderServiceHelper extends _UnionOrderServiceClient{
 
 	public function __construct(){

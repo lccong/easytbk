@@ -19,7 +19,7 @@
  *
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\StringFunc;
+namespace lccong\EasyTBK\Vip\Osp\StringFunc;
 
 
 class Core implements StringFunc {

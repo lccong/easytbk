@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace lccong\EasyTBK\Vip\Request;
 class UnionPidServiceHelper extends _UnionPidServiceClient{
 
 	public function __construct(){

@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace lccong\EasyTBK\TaoBao\request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use lccong\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.topats.result.get request
  *

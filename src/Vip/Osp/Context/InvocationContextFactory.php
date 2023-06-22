@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Context;
+namespace lccong\EasyTBK\Vip\Osp\Context;
 
 /**
  * 获取调用上下文环境工厂类

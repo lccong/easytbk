@@ -3,7 +3,7 @@
     "type": "library",
     "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:lc_wx_demo",
     "keywords": ["淘宝客","淘宝客SDK"],
-    "homepage": "https://github.com/niugengyun/easytbk",
+    "homepage": "https://github.com/lccong/easytbk",
     "license": "MIT",
     "authors": [
         {
