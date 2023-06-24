@@ -19,7 +19,10 @@
     "autoload": {
         "psr-4": {
             "lccong\\EasyTBK\\": "src/"
-        }
+        },
+        "exclude-from-classmap": [
+            "src/Vip/Request/"
+        ]
     },
     "version": "0.1.0",
     "extra": {

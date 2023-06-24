@@ -3,7 +3,9 @@
 
 淘宝联盟、京东联盟、多多进宝、唯享客、苏宁推客SDK封装，该项目长期维护，如发现问题，请提交PR。
 
-在原有的基础上升级到支持laravel9-laravel10
+- 在原有的基础上升级到支持laravel9-laravel10
+- 忽略掉了唯品会sdk报不符合规范错误
+- 修复苏宁目录大小写问题
 
 仅支持laravel5-laravel10，这不是可以直接拿来用的返利系统。
 
@@ -79,6 +81,7 @@ use lccong\EasyTBK\Vip\Request\PidGenRequest;
 use lccong\EasyTBK\Vip\Request\UnionPidServiceClient;
 
 // 唯品会官方的sdk写的比较垃圾，用法和其他平台稍微不一样
+// 忽略掉了唯品会sdk报不符合规范错误
 $service= UnionPidServiceClient::getService();
 Factory::vip();
 $pidGenRequest1 = new PidGenRequest();
