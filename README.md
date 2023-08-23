@@ -39,7 +39,7 @@ php artisan vendor:publish --provider "lccong\EasyTBK\ServiceProvider"
 ```php
 <?php
 use lccong\EasyTBK\Factory;
-use lccong\EasyTBK\taobao\request\TbkItemInfoGetRequest;
+use lccong\EasyTBK\Taobao\request\TbkItemInfoGetRequest;
 
 $client = Factory::taobao ();
 $req = new TbkItemInfoGetRequest();
@@ -52,7 +52,7 @@ return $client->execute ($req);
 ```php
 <?php
 use lccong\EasyTBK\Factory;
-use lccong\EasyTBK\jingdong\request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
+use lccong\EasyTBK\JingDong\request\JdUnionGoodsPromotiongoodsinfoQueryRequest;
 
 $jd = Factory::jingdong();
 $req = new JdUnionGoodsPromotiongoodsinfoQueryRequest();
@@ -65,7 +65,7 @@ return $jd->execute($req);
 ```php
 <?php
 use lccong\EasyTBK\Factory;
-use lccong\EasyTBK\pinduoduo\request\DdkGoodsDetailRequest;
+use lccong\EasyTBK\PinDuoDuo\request\DdkGoodsDetailRequest;
 
 $pdd = Factory::pinduoduo();
 $req = new DdkGoodsDetailRequest();
@@ -97,7 +97,7 @@ dd($service->genPidWithOauth($pidGenRequest1));
 ```php
 <?php
 use lccong\EasyTBK\Factory;
-use lccong\EasyTBK\suning\Request\netalliance\CouponproductQueryRequest;
+use lccong\EasyTBK\SuNing\Request\netalliance\CouponproductQueryRequest;
 
 $c = Factory::suning();
 $req = new CouponproductQueryRequest();
